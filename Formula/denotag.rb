@@ -29,7 +29,7 @@ class Denotag < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/M4RC3L05/denotag/releases/download/v4.6.20/denotag-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "sha256:525218a6a7914e52e89b8b32633296b928bc384800d7339fdfae6a8afeb12c9c"
+      sha256 "525218a6a7914e52e89b8b32633296b928bc384800d7339fdfae6a8afeb12c9c"
       def install
         bin.install "denotag"
       end
