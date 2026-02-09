@@ -4,7 +4,7 @@
 class Denotag < Formula
   desc "Tag editor built with deno"
   homepage "https://github.com/m4rc3l05/denotag"
-  version "0.0.0"
+  version "4.6.20"
   license "MIT"
 
   on_macos do
